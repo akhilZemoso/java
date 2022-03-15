@@ -10,10 +10,10 @@ public class CheckAlphabetsInString {
         System.out.println("Please enter the string to check whether all alphabets are present or not");
         str=in.nextLine().toLowerCase();
         if(checkStringContainsAllAlphabets(str)){
-            System.out.println("String contains all the letters");
+            System.out.println("String contains all the alphabets");
         }
         else {
-            System.out.println("String does not contain all the letters");
+            System.out.println("String does not contain all the alphabets");
         }
 
     }
