@@ -1,3 +1,8 @@
+/*
+Write a java function that checks if the input string contains all the letters of the alphabet a-z (case-insensitive).
+Write time and space complexity of your solution as comments in the source file.
+ */
+
 package com.basics.java.assignment2;
 
 import java.util.HashMap;
@@ -10,10 +15,10 @@ public class CheckAlphabetsInString {
         System.out.println("Please enter the string to check whether all alphabets are present or not");
         str=in.nextLine().toLowerCase();
         if(checkStringContainsAllAlphabets(str)){
-            System.out.println("String contains all the letters");
+            System.out.println("String contains all the alphabets");
         }
         else {
-            System.out.println("String does not contain all the letters");
+            System.out.println("String does not contain all the alphabets");
         }
 
     }
@@ -36,3 +41,6 @@ public class CheckAlphabetsInString {
         return false;
     }
 }
+
+// Time complexity - O(n)
+// Space complexity - O(1)
